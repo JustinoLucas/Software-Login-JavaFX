@@ -1,7 +1,6 @@
-package com.example.testefxlogin;
+package com.example.JavaFXLogin;
 
 import java.sql.*;
-import org.postgresql.*;
 
 
 public class DBConnection {

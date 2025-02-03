@@ -1,4 +1,4 @@
-package com.example.testefxlogin;
+package com.example.JavaFXLogin;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

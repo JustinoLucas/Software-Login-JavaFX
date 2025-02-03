@@ -1,4 +1,4 @@
-package com.example.testefxlogin;
+package com.example.JavaFXLogin;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -19,7 +19,6 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.util.regex.Pattern;
 
 public class RegisterController extends LoginController {
 

@@ -1,4 +1,4 @@
-module com.example.testefxlogin {
+module com.example.JavaFXLogin {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphics;
@@ -7,6 +7,6 @@ module com.example.testefxlogin {
     requires spring.security.crypto;
 
 
-    opens com.example.testefxlogin to javafx.fxml;
-    exports com.example.testefxlogin;
+    opens com.example.JavaFXLogin to javafx.fxml;
+    exports com.example.JavaFXLogin;
 }
