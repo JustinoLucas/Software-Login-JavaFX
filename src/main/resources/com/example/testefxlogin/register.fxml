@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="rootPane" maxHeight="700.0" maxWidth="550.0" minHeight="700.0" minWidth="550.0" onMouseDragged="#onMouseDragged" onMousePressed="#onMousePressed" prefHeight="700.0" prefWidth="550.0" style="-fx-background-color: rgba(0, 0, 0, 0.0);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testefxlogin.RegisterController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="550.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/background.png" />
+         </image>
+      </ImageView>
+      <BorderPane layoutX="-5.0" layoutY="-1.0" minWidth="-Infinity" prefHeight="700.0" prefWidth="559.0">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="usernameTextField" focusTraversable="false" layoutX="105.0" layoutY="274.0" prefHeight="50.0" prefWidth="350.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #e3e3e3; -fx-border-width: 1px; -fx-background-radius: 50px; -fx-border-radius: 50px;">
+                     <font>
+                        <Font name="Louis George Cafe" size="24.0" />
+                     </font>
+                  </TextField>
+                  <AnchorPane layoutX="12.0" layoutY="10.0" prefHeight="40.0" prefWidth="164.0">
+                     <children>
+                        <Button fx:id="cancelButton" layoutY="-1.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" styleClass="botoes" stylesheets="@loginCss.css" text="╳">
+                           <font>
+                              <Font name="Louis George Cafe Bold" size="16.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="voltarButton" layoutX="39.0" layoutY="-1.0" mnemonicParsing="false" onAction="#voltarInicioLogin" styleClass="botoes" stylesheets="@loginCss.css" text="←">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="registerButton" layoutX="170.0" layoutY="617.0" mnemonicParsing="false" onAction="#registerButtonOnAction" style="-fx-background-color: #ceabff;" text="REGISTRAR" textFill="WHITE">
+                     <font>
+                        <Font name="Louis George Cafe Bold" size="34.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="loginMensagemLabel" alignment="CENTER" layoutX="21.0" layoutY="533.0" prefHeight="76.0" prefWidth="521.0" textAlignment="CENTER" textFill="#f5f5f5" wrapText="true">
+                     <font>
+                        <Font name="Louis George Cafe" size="24.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="passwordTextField" focusTraversable="false" layoutX="107.0" layoutY="361.0" prefHeight="51.0" prefWidth="349.0" promptText="Senha" style="-fx-background-color: transparent; -fx-border-color: #e3e3e3; -fx-border-width: 1px; -fx-background-radius: 50px; -fx-border-radius: 50px;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </PasswordField>
+                  <TextField fx:id="primeironomeTextField" focusTraversable="false" layoutX="105.0" layoutY="102.0" prefHeight="50.0" prefWidth="350.0" promptText="Primeiro Nome" style="-fx-background-color: transparent; -fx-border-color: #e3e3e3; -fx-border-width: 1px; -fx-background-radius: 50px; -fx-border-radius: 50px;">
+                     <font>
+                        <Font name="Louis George Cafe" size="24.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="segundonomeTextField" focusTraversable="false" layoutX="106.0" layoutY="187.0" prefHeight="50.0" prefWidth="350.0" promptText="Segundo Nome" style="-fx-background-color: transparent; -fx-border-color: #e3e3e3; -fx-border-width: 1px; -fx-background-radius: 50px; -fx-border-radius: 50px;">
+                     <font>
+                        <Font name="Louis George Cafe" size="24.0" />
+                     </font>
+                  </TextField>
+                  <PasswordField fx:id="confirmpasswordTextField" focusTraversable="false" layoutX="107.0" layoutY="440.0" prefHeight="51.0" prefWidth="349.0" promptText="Confirme a Senha" style="-fx-background-color: transparent; -fx-border-color: #e3e3e3; -fx-border-width: 1px; -fx-background-radius: 50px; -fx-border-radius: 50px;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </PasswordField>
+                  <Label layoutX="168.0" layoutY="31.0" text="Registro de Usuário">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="registerMensagemLabel" layoutX="226.0" layoutY="533.0" prefHeight="26.0" prefWidth="107.0" textFill="#6cff47">
+                     <font>
+                        <Font name="Louis George Cafe" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="primeiroNomeLabel" layoutX="128.0" layoutY="85.0" text="Primeiro Nome" textFill="#f2f2f2">
+                     <font>
+                        <Font name="Louis George Cafe" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="segundoNomeLabel" layoutX="127.0" layoutY="169.0" text="Segundo Nome" textFill="#f2f2f2">
+                     <font>
+                        <Font name="Louis George Cafe" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="usuarioLabel" layoutX="128.0" layoutY="256.0" text="Nome de Usuário" textFill="#f2f2f2">
+                     <font>
+                        <Font name="Louis George Cafe" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="senhaLabel" layoutX="127.0" layoutY="341.0" text="Senha" textFill="#f2f2f2">
+                     <font>
+                        <Font name="Louis George Cafe" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="mensagemSenhaDupla" layoutX="127.0" layoutY="421.0">
+                     <font>
+                        <Font name="Louis George Cafe" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</Pane>
