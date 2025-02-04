@@ -32,13 +32,13 @@ Essa software dekstop foi desenvolvida com Postgres para meu portfolio, para dem
 git clone https://github.com/JustinoLucas/Software-Login-JavaFX.git
 ```
 
-2. Para instalar as dependências, baixe as depencencias a seguir:
+2. Baixe as depencencias a seguir:
 
 >SDK JavaFX 23.0.2 /
 >JDK Java 23
 
 ```bash
-Configure todas as Variables PATHS
+Configure todas as Variables PATHS no seu local de trabalho e na sua IDE
 ```
 
 3. SQL Postgres
