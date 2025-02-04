@@ -1,4 +1,4 @@
-module com.example.JavaFXLogin {
+module SoftwareLoginJavaFX {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphics;
