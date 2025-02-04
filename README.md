@@ -15,8 +15,8 @@ Essa software dekstop foi desenvolvida com Postgres para meu portfolio, para dem
 - `Login` Formulário de login para entrar no software.
 <h1 align="center">
 
-[//]: # (    <img src="./public/home.png" width="300"/>)
-</h1
+    <img src="./public/imageGit1.png" width="500"/>
+</h1>
 
 
 
