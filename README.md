@@ -10,11 +10,16 @@ Essa software dekstop foi desenvolvida com Postgres para meu portfolio, para dem
 
 ## Funcionalidades
 
->In progress...
+
 
 - `Login` Formulário de login para entrar no software.
 <h1 align="center">
     <img src="./public/imageGit1.png" width="300"/>
+</h1>
+
+- `Registro` Formulário de registro para cadastrar.
+<h1 align="center">
+    <img src="./public/imageGit2.png" width="300"/>
 </h1>
 
 
@@ -25,10 +30,13 @@ Essa software dekstop foi desenvolvida com Postgres para meu portfolio, para dem
 
 ```bash
 git clone https://github.com/JustinoLucas/Software-Login-JavaFX.git
-
 ```
 
-2. Para instalar as dependências, execute o seguinte comando:
+2. Para instalar as dependências, baixe as depencencias a seguir e execute o seguinte comando:
+
+>SDK JavaFX 23.0.2
+>JDK Java 23
+
 ```bash
 
 ```
